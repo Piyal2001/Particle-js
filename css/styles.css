@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background:radial-gradient( rgb(153, 123, 123) 5%, rgb(255, 94, 0) 20%,rgb(100,0,165) 60%);
+    height: 100vh;
+}
+h1{
+    color: rgb(247, 247, 247);
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 40vh;
+    text-shadow: 0 0 10px rgba(255, 255,255, .35);
+}
+h1 span{
+    color:black;
+    background-color: rgb(233, 2, 2);
+}
+#bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    z-index: 9;
+}
+
+
